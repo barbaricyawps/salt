@@ -23,6 +23,10 @@ require.
 .. _Issue #52674: https://github.com/saltstack/salt/issues/52674
 .. _Issue #54115: https://github.com/saltstack/salt/issues/54115
 
+.. seealso::
+
+    :ref:`Securing the Salt Master <securing-salt-master>`
+
 
 General hardening tips
 ======================
@@ -38,6 +42,7 @@ General hardening tips
 - Keep the system patched and up-to-date.
 - Use tight firewall rules. Pay particular attention to TCP/4505 and TCP/4506
   on the salt master and avoid exposing these ports unnecessarily.
+
 
 Salt hardening tips
 ===================
